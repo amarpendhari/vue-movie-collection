@@ -1,20 +1,18 @@
 <template>
-  <div id="app"> 
+  <div id="app">
     <movie></movie>
   </div>
 </template>
 
 <script>
-import movie from './components/movie.vue'
-import axios from 'axios';
+import movie from "./components/movie.vue";
+//import axios from 'axios';
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    movie,
+    movie
   }
-}
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
